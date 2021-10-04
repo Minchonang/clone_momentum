@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="#" />
+		<title>Clone_Momentum</title>
+	</head>
+
+	<body>
+		<!-- quotes -->
+		<div id="quotes" class="quotes_css">
+			<span></span>
+		</div>
+
+		<!-- login -->
+		<div id="login-form">
+			<form>
+				<input
+					id="login-input"
+					class="login-input_css"
+					required
+					maxlength="15"
+					type="text"
+					placeholder="Your name"
+				/>
+				<input
+					id="login-button"
+					class="login-button_css"
+					type="submit"
+					title="Log in"
+					value="✔️"
+				/>
+			</form>
+		</div>
+		<div id="logout-form" class="hidden">
+			<span id="helloUsername" class="hidden"></span>
+			<button id="logout-button" class="hidden" type="submit" title="Log out">
+				X
+			</button>
+		</div>
+
+		<!-- clock -->
+		<div id="clock" class="clock_css">00 : 00</div>
+
+		<!-- todo -->
+		<div id="todoList" class="hidden">
+			<form id="todo-form">
+				<input
+					type="text"
+					id="input-todo"
+					placeholder="Your plane"
+					required
+					autocomplete="off"
+				/>
+			</form>
+			<ul id="list" class="todo_css"></ul>
+		</div>
+
+		<!-- script -->
+		<script src="js/quotes.js"></script>
+		<script src="js/login.js"></script>
+		<script src="js/clock.js"></script>
+		<script src="js/todo.js"></script>
+	</body>
+</html>
