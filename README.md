@@ -6,4 +6,5 @@ https://minchonang.github.io/clone_momentum/
 1. 위치 기반 현재 날씨
 2. 새로고침 할때마다 랜덤으로 나오는 명언.
 3. 닉네임 입력.
-4. todo 리스트
+4. 현재 시간
+5. todo 리스트
