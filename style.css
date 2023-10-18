@@ -148,3 +148,5 @@ body {
 .list_css button {
 	background-color: #F7F9FC;
 	border: 0;
+	cursor: pointer;
+}
