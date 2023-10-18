@@ -144,3 +144,7 @@ body {
 .list_css {
 	padding-bottom: 13px;
 }
+
+.list_css button {
+	background-color: white;
+	border: 0;
