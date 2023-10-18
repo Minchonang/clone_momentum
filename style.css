@@ -125,6 +125,7 @@ body {
 	font-family: "KyoboHand";
 	padding-left: 15px;
 	padding-right: 15px;
+	outline: none;
 }
 
 #todo-form input::placeholder {
