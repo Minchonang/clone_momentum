@@ -10,11 +10,11 @@ function onGeoOk(position) {
 			const city = document.querySelector("#weather span:first-child");
 			const weather = document.querySelector("#weather span:last-child");
 			
-
-			city.innerText = `${data.name},`;
 			if(data.name == "Yach’on"){
 				data.name = '광주광역시';
 			}
+			city.innerText = `${data.name},`;
+			
 			weather.innerText = `현재 기온: ${Math.round(data.main.temp)}℃, 날씨: ${
 				data.weather[0].main
 			},`;
