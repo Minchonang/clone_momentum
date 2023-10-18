@@ -12,6 +12,9 @@ function onGeoOk(position) {
 			
 
 			city.innerText = `${data.name},`;
+			if(data.name == "Yach’on"){
+				data.name = '광주광역시';
+			}
 			weather.innerText = `현재 기온: ${Math.round(data.main.temp)}℃, 날씨: ${
 				data.weather[0].main
 			},`;
